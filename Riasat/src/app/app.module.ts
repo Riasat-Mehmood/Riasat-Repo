@@ -9,6 +9,9 @@ import { SidebarComponent } from './task1/sidebar/sidebar.component';
 import { IntropageComponent } from './task1/intropage/intropage.component';
 import { EducationpageComponent } from './task1/educationpage/educationpage.component';
 import { LanguageComponent } from './task1/language/language.component';
+import { DatatypesComponent } from './task1/datatypes/datatypes.component';
+import { MathoperatersComponent } from './task1/mathoperaters/mathoperaters.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,9 @@ import { LanguageComponent } from './task1/language/language.component';
     SidebarComponent,
     IntropageComponent,
     EducationpageComponent,
-    LanguageComponent
+    LanguageComponent,
+    DatatypesComponent,
+    MathoperatersComponent
 
   ],
   imports: [
